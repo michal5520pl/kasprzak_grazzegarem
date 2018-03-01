@@ -8,4 +8,14 @@
     tools:context="pl.edu.kasprzak.grazzegarem.GraActivity"
     android:weightSum="1">
     <!-- Czegoś tutaj brakuje -->
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id = "@+id/action"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id = "@+id/clock"/>
+
 </LinearLayout>
