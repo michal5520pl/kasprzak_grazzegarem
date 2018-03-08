@@ -68,6 +68,7 @@ public class GraActivity extends AppCompatActivity {
     protected void onResume() {
         super.onResume();
         // Podobnie jak tutaj, też czegoś brakuje
+        runningClock = true;
         Log.d("CYKL_ZYCIA", "ONRESUME");
     }
 
